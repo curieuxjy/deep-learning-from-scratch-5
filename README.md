@@ -1,26 +1,23 @@
-ゼロから作る Deep Learning ❺
+(공사중) 밑바닥부터 시작하는 딥러닝 5
 =============================
 
 [<img src="https://raw.githubusercontent.com/oreilly-japan/deep-learning-from-scratch-5/images/cover.png" width="200px">](https://www.amazon.co.jp/dp/4814400594/)
 
 
-書籍『[ゼロから作るDeep Learning ❺](https://www.amazon.co.jp/dp/4814400594/)』（オライリー・ジャパン発行）のサポートサイトです。本書籍で使用するソースコードがまとめられています。
+## 파일 구성
 
-
-## ファイル構成
-
-|フォルダ名 |説明                             |
+|폴더명 |설명                             |
 |:--        |:--                              |
-|`step01`   |ステップ1で使用するコード  |
-|`step02`   |ステップ2で使用するコード  |
+|`step01`   |1장에서 사용할 코드  |
+|`step02`   |2장에서 사용할 코드  |
 |...        |...                              |
-|`step10`   |ステップ10で使用するコード |
-|`notebooks`   |ステップ1〜10までのコード（Jupyter Notebook形式）|
+|`step10`   |10장에서 사용할 코드 |
+|`notebooks`   |1〜10장까지의 코드（주피터 노트북 형식）|
 
 
-## Jupyter Notebook
+## 주피터 노트북
 
-本書のコードはJupyter Notebookでも用意しています。次の表にあるボタンをクリックすることで、Google ColabやKaggle Notebookなどのクラウドサービス上でNotebookを実行することができます。
+이 책의 코드는 주피터 노트북에서도 확인할 수 있습니다. 다음 표의 버튼을 클릭하면 각각의 클라우드 서비스에서 노트북을 실행할 수 있습니다.
 
 | 단계 | Colab | Kaggle | Studio Lab |
 | :--- | :--- | :--- | :--- |
@@ -36,22 +33,22 @@
 | 10. 확산 모델 응용 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oreilly-japan/deep-learning-from-scratch-5/blob/master/notebooks/10_diffusion2.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/oreilly-japan/deep-learning-from-scratch-5/blob/master/notebooks/10_diffusion2.ipynb) | [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-5/blob/master/notebooks/10_diffusion2.ipynb) |
 
 
-## Pythonと外部ライブラリ
+## 파이썬과 외부 라이브러리
 
-ソースコードを実行するには下記のライブラリが必要です。
+소스 코드를 실행하려면 다음과 같은 라이브러리가 필요합니다.
 
 * NumPy
 * Matplotlib
-* PyTorch（バージョン：2.x）
+* PyTorch（버전 2.x）
 * torchvision
 * tqdm
 
-※Pythonのバージョンは **3系** を利用します。
+※ 파이썬 버전은 3.x를 사용합니다.
 
 
-## 実行方法
+## 실행 방법
 
-各章のフォルダへ移動して、Pythonコマンドを実行します。
+각 장의 폴더로 이동하여 파이썬 명령어를 실행하면 됩니다.
 
 ```
 $ cd step01
@@ -62,36 +59,6 @@ $ python generate.py
 ```
 
 
-<!--
-## クラウドサービスでの実行
+## 라이선스
 
-本書のコードは次の表にあるボタンをクリックすることで、AWSの無料の計算環境である[Amazon SageMaker Studio Lab](https://studiolab.sagemaker.aws/)上に実行できます(事前に[メールアドレスによる登録](https://studiolab.sagemaker.aws/requestAccount)が必要です)。SageMaker Studio Labの使い方は[こちら](https://github.com/aws-sagemaker-jp/awesome-studio-lab-jp/blob/main/README_usage.md)をご覧ください。[Amazon SageMaker Studio Lab Community](https://github.com/aws-studiolab-jp/awesome-studio-lab-jp)で最新情報が取得できます。
-
-|フォルダ名 |Amazon SageMaker Studio Lab
-|:--        |:--                          |
-|step01       |[![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-5/blob/master/notebooks/step01.ipynb)|
-|step02       |[![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-5/blob/master/notebooks/step02.ipynb)|
-|step03       |[![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-5/blob/master/notebooks/step03.ipynb)|
-|step04       |[![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-5/blob/master/notebooks/step04.ipynb)|
-|step05       |[![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-5/blob/master/notebooks/step05.ipynb)|
-|step06       |[![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-5/blob/master/notebooks/step06.ipynb)|
-|step07       |[![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-5/blob/master/notebooks/step07.ipynb)|
-|step08       |[![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-5/blob/master/notebooks/step08.ipynb)|
-|step09       |[![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-5/blob/master/notebooks/step09.ipynb)|
-|step10       |[![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-5/blob/master/notebooks/step10.ipynb)|
- -->
-
-
-## ライセンス
-
-本リポジトリのソースコードは[MITライセンス](http://www.opensource.org/licenses/MIT)です。
-商用・非商用問わず、自由にご利用ください。
-
-
-## 正誤表
-
-本書の正誤情報は以下のページで公開しています。
-
-https://github.com/oreilly-japan/deep-learning-from-scratch-5/wiki/errata
-
-本ページに掲載されていない誤植など間違いを見つけた方は、[japan@oreilly.co.jp](<mailto:japan@oreilly.co.jp>)までお知らせください。
+이 저장소의 소스 코드는 [MIT 라이선스](http://www.opensource.org/licenses/MIT)를 따릅니다. 상업적/비상업적 용도로 자유롭게 사용하실 수 있습니다.
