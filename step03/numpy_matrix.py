@@ -12,7 +12,7 @@ d = np.linalg.det(A)
 print(d)
 
 # inverse matrix
-A = np.array([[0.5, 1.0], [2.0, 3.0]])
+A = np.array([[3, 4], [5, 6]])
 B = np.linalg.inv(A)
 print(B)
 print('---')
