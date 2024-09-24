@@ -7,7 +7,6 @@ xs = np.loadtxt(path)
 
 print(xs.shape)
 print(xs[0])
-print(xs[1])
 
 plt.scatter(xs[:,0], xs[:,1])
 plt.xlabel('Eruptions(Min)')
