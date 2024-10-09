@@ -1,8 +1,14 @@
-(공사중) 밑바닥부터 시작하는 딥러닝 5
+# 『밑바닥부터 시작하는 딥러닝 ❺』<br>정규 분포부터 생성 모델까지!
+
+<a href="http://www.yes24.com/Product/Goods/72173703"><img src="https://github.com/WegraLee/deep-learning-from-scratch-5/blob/main/cover.png?raw=true" width="180" align=right></a>
+
+**10단계로 알아보는 이미지 생성 모델의 원리!**
+
+이 책은 정규 분포와 최대 가능도 추정과 같은 기본 개념에서 출발하여 가우스 혼합 모델, 변이형 오토인코더(VAE), 계층형 VAE 그리고 확산 모델에 이르기까지 다양한 생성 모델을 설명한다. 수식과 알고리즘을 꼼꼼하게 다루며 수학 이론과 파이썬 프로그래밍을 바탕으로 한 실제 구현 방법을 알려준다. 생성 모델을 이론뿐만 아니라 실습과 함께 명확하게 학습할 수 있다. 특히 확산 모델에 이르는 10단계의 과정을 하나의 스토리로 엮어 중요한 기술들을 서로 잇고 개선할 수 있도록 구성했다. 이 책과 함께 생성 모델을 밑바닥부터 시작해보자.
+
+[미리보기](https://www.yes24.com/Product/Viewer/Preview/134648807) | [알려진 오류(정오표)](https://docs.google.com/document/d/1SU7b_emm3Lqha4BfVLTr4Ae6eTg32BkKFWMEXl6N_vA) | [본문 그림과 수식 이미지 모음](준비 중)
+
 =============================
-
-[<img src="https://raw.githubusercontent.com/oreilly-japan/deep-learning-from-scratch-5/images/cover.png" width="200px">](https://www.amazon.co.jp/dp/4814400594/)
-
 
 ## 파일 구성
 
