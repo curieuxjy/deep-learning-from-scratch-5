@@ -1,4 +1,4 @@
-# 『밑바닥부터 시작하는 딥러닝 ❺』<br>정규 분포부터 생성 모델까지!
+# 『밑바닥부터 시작하는 딥러닝 ❺』<br>: 정규 분포부터 생성 모델까지!
 
 <a href="http://www.yes24.com/Product/Goods/72173703"><img src="https://github.com/WegraLee/deep-learning-from-scratch-5/blob/main/cover.png?raw=true" width="180" align=right></a>
 
